@@ -4,6 +4,11 @@
     align-items: center;
     margin-top: 6vw;
 }
+
+input[type=text]:focus {
+    outline: none;
+  }
+
 .left {
 
 }
