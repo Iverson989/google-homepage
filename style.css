@@ -4,6 +4,13 @@
     align-items: center;
     margin-top: 6vw;
 }
+.left {
+
+}
+
+.right {
+
+}
 
 a {
     color: black;
@@ -84,5 +91,10 @@ header {
 }
 
 footer {
-    color: black;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 40px;
 }
