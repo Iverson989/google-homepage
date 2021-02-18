@@ -60,6 +60,12 @@ header {
     margin-top: 25px;
 }
 
+#mag-glass {
+    opacity: 75%;
+    height: 15px;
+    width: 15px;
+}
+
 #sign-in-button {
     background-color: rgb(87, 126, 245);
     color: white;
@@ -76,12 +82,32 @@ header {
     margin-top: -5px;
 }
 
-#search-bar {
-    margin-top: 30px;
-    height: 25px;
-    width: 816px;
+#searchbar1 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    width: 90vw;
+    height: 50px;
+    margin-top: 20px;;
+}
+
+#searchbar2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 582px;
+    height: 43.99px;
+    border: 1px solid black;
+    border-color: lightgray;
+    border-radius: 50px;
+}
+
+#search {
+
+}
+
+#voice-search {
+    border: none;
 }
 
 #search-buttons {
