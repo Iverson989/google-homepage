@@ -106,8 +106,13 @@ header {
     margin-top: 5px;
 }
 
-#search {
+#search-box {
+    width: 487px;
+}
 
+#search {
+    width: 100%;
+    border: none;
 }
 
 #voice-search {
