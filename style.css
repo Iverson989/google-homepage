@@ -7,15 +7,11 @@
 
 input[type=text]:focus {
     outline: none;
-  }
-
-.left {
-
 }
 
-.right {
+.left {}
 
-}
+.right {}
 
 a {
     color: black;
@@ -95,7 +91,8 @@ header {
     justify-content: center;
     width: 90vw;
     height: 50px;
-    margin-top: 20px;;
+    margin-top: 20px;
+    ;
 }
 
 #searchbar2 {
@@ -122,12 +119,26 @@ header {
 
 #voice-search {
     border: none;
+    margin-right: 18px;
+    background-color: white;
 }
 
-#search-buttons {
-    margin-top: 15px;
+#sbuttons {
+    margin-top: 27px;
+}
+
+.search-buttons {
     flex-direction: row;
-    background-color: #F8F8F8;
+    background-color: #f2f2f2;
+    border: none;
+    height: 36px;
+    margin: 0px 5px 0px 5px;
+    border-radius: 3px;
+    color: rgb(90, 90, 90);
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px 0 16px;
+    font-weight: 400;
 }
 
 footer {
