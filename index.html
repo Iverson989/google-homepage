@@ -4,36 +4,38 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="style.css">
-    <title>Google Search</title>
+    <title>Google</title>
 </head>
 
 <body>
     <header>
         <div id="left-header">
-            <button type="button">
-                About
-            </button>
-            <button type="button">
-                Store
-            </button>
+            <a href="#">About</a>
+            <a href="#">Store</a>
             <div id="right-header">
-                <button type="button">
-                    Gmail
-                </button>
-                <button type="button">
-                    Images
-                </button>
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <div id="grid-button-div">
+                    <a href="#"><img src="/images/grid-button.png" id="grid-button"></a>
+                </div>
+                <div id="sign-in-div">
+                    <button type="button" id="sign-in-button">Sign in</button>
+                </div>
             </div>
         </div>
     </header>
-
-    <div id="logo">
-        <img src="images/google-logo.png" alt="Google logo">
+    <div class="centered">
+        <div id="logo">
+            <img src="images/google-logo.png" alt="Google logo">
+        </div>
+        <div id="search-bar">
+            <input type="text" id="search" name="search">
+        </div>
+        <div id="search-buttons" class="centered">
+            <button type="button">Google Search</button>
+            <button type="button">I'm Feeling Lucky</button>
+        </div>
     </div>
-    <div id="search-bar">
-        <input type="text" id="search" name="search">
-    </div>
-
     <footer>
         <p>some text to represent the footer for now</p>
     </footer>
