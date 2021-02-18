@@ -9,10 +9,6 @@ input[type=text]:focus {
     outline: none;
 }
 
-.left {}
-
-.right {}
-
 a {
     color: black;
     font-size: 13px;
@@ -33,8 +29,8 @@ header {
     flex-direction: row;
     padding: 0px 10px 0px 10px;
     margin-top: 15px;
-    min-width: 100vw;
-    max-width: 100vw;
+    min-width: auto;
+    max-width: auto;
 }
 
 #left-header {
@@ -99,7 +95,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 582px;
+    width: 481px;
     height: 43.99px;
     border: 1px solid black;
     border-color: lightgray;
@@ -143,9 +139,44 @@ header {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     position: fixed;
     bottom: 0px;
     width: 100%;
     height: 40px;
+    background-color: rgb(240, 240, 241);
+    align-items: center;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: row;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+
+#first {
+}
+
+#second {
+}
+
+#third {
+}
+
+#fourth {
+}
+
+#fifth {
+}
+
+#sixth {
 }
