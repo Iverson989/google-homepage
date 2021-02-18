@@ -57,13 +57,15 @@ header {
 }
 
 #logo {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 #mag-glass {
     opacity: 75%;
     height: 15px;
     width: 15px;
+    margin-left: 15px;
+    margin-top: 4px;
 }
 
 #sign-in-button {
@@ -100,6 +102,8 @@ header {
     border: 1px solid black;
     border-color: lightgray;
     border-radius: 50px;
+    align-items: center;
+    margin-top: 5px;
 }
 
 #search {
