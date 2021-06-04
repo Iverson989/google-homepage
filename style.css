@@ -1,0 +1,161 @@
+.centered {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6vw;
+}
+
+input[type="text"]:focus {
+  outline: none;
+}
+
+a {
+  color: black;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  text-decoration: none;
+  padding-left: 8px;
+  padding-right: 10px;
+  opacity: 75%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 10px 0px 10px;
+  margin-top: 15px;
+  min-width: auto;
+  max-width: auto;
+}
+
+#left-header {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 90vw;
+  max-width: 90vw;
+}
+
+#right-header {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 90vw;
+  max-width: 90vw;
+}
+
+#grid-button {
+  height: 22px;
+  width: 22px;
+  opacity: 75%;
+}
+
+#logo {
+  margin-top: 20px;
+}
+
+#mag-glass {
+  opacity: 75%;
+  height: 15px;
+  width: 15px;
+  margin-left: 15px;
+  margin-top: 4px;
+}
+
+#sign-in-button {
+  background-color: rgb(87, 126, 245);
+  color: white;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  padding: 7px 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 7%;
+}
+
+#sign-in-div {
+  margin-left: 5px;
+  margin-top: -5px;
+}
+
+#searchbar1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 90vw;
+  height: 50px;
+  margin-top: 20px;
+}
+
+#searchbar2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 582px;
+  height: 43.99px;
+  border: 1px solid black;
+  border-color: lightgray;
+  border-radius: 50px;
+  align-items: center;
+  margin-top: 5px;
+}
+
+#search-box {
+  width: 487px;
+}
+
+#search {
+  width: 100%;
+  border: none;
+}
+
+#voice-search {
+  border: none;
+  margin-right: 18px;
+  background-color: white;
+}
+
+#sbuttons {
+  margin-top: 27px;
+}
+
+.search-buttons {
+  flex-direction: row;
+  background-color: #f2f2f2;
+  border: none;
+  height: 36px;
+  margin: 0px 5px 0px 5px;
+  border-radius: 3px;
+  color: rgb(90, 90, 90);
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px 0 16px;
+  font-weight: 400;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(240, 240, 241);
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: row;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+.right {
+  display: flex;
+  flex-direction: row;
+  margin-right: 20px;
+}
